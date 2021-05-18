@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family     : "Lato", sans-serif;
+    font-size       : 16px;
+    background-color: #eff5ec;
+    color           : rgb(58 36 36);
+    margin          : 0;
+}
+
+.body--dark {
+    font-family     : "Lato", sans-serif;
+    font-size       : 16px;
+    background-color: rgb(58 36 36);
+    color           : #eff5ec;
+}
+
+.container {
+    margin   : auto;
+    /*wysrodkowanie calego container*/
+    max-width: 1000px;
+    padding  : 20px;
+}
+
+
+
+}
+
+.header__style {
+    color        : rgb(15 18 228);
+    margin-bottom: 30px;
+    font-weight  : 300;
+    font-size    : 3em;
+}
+
+.header__image {
+    max-width    : 100%;
+    border-radius: 50px 0px;
+    box-shadow   : 0px 0px 18px -4px #3C65BC;
+}
+
+
+.button {
+    background-color: rgb(153, 93, 93);
+    color           : #fff;
+    font-family     : "Lato", sans-serif;
+    font-size       : 16px;
+    padding         : 20px 20px;
+    border          : none;
+    margin-top      : 20px;
+}

@@ -1,0 +1,30 @@
+
+.navigation {
+    list-style-type: none;
+    padding-left   : 0;
+    padding-bottom : 15px;
+    border-bottom  : 1px solid brown;
+    /*to te linie zamiast <br>*/
+    border-top     : 1px solid brown;
+    margin-bottom  : 0;
+    /*zeruję domyslny marg przegladarki*/
+}
+
+.navigation__item {
+   
+    margin: 10px;
+    /*marg gora dol, by elem nie byly blisko siebie*/
+}
+
+/*hiperlacze*/
+.navigation__link {
+    /*to co wewnątrz przycisku*/
+    text-decoration: none;
+    /*znika podkreslenie*/
+    color          : blue;
+    /*kolor linka*/
+}
+
+.navigation__link:hover {
+    color: hsl(221, 68%, 74%);
+}

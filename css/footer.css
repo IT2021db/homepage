@@ -1,0 +1,10 @@
+/*FOOTER*/
+
+.footer {
+    background-color: rgb(153, 93, 93);
+    text-align      : center;
+    color           : #fff;
+    padding         : 20px;
+    font-family     : "Lato", sans-serif;
+    font-size       : 16px;
+}

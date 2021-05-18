@@ -1,0 +1,15 @@
+.section {
+    padding: 10px 0;
+    /*odstepy tekstu góry ekranu*/
+}
+.section--centered{
+    text-align: center;
+}
+.section__image {
+
+    max-width: 40%;
+}
+.section__paragraph {
+    line-height: 1.5;
+    /*odstepy linii*/
+}
